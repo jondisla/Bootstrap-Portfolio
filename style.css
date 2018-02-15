@@ -1,15 +1,20 @@
 body{
     background: url(assets/images/mainbg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: rgb(89, 168, 242);
 }
 
 .navbar{
-    border-bottom: 1px solid rgb(204, 204, 204);
+    border-bottom: 2px solid rgb(204, 204, 204);
     background: white;
 }
 
 .container-fluid{
     position: relative;
-    width: 960px;
+    width: 978px;
     height: 89px;
 }
 
@@ -69,31 +74,69 @@ ul li:nth-child(3){
 }
 
 .panel-body{
+    position: relative;
+    float: left;
+}
+
+.panel-content{
+    margin-top: -34px;
+}
+
+.panel-body{
     background-color: white;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 .panel-body h1{
+    position: relative;
     border-bottom: 2px solid rgb(204, 203, 203);
+    font-size: 42px;
+    top: -34px;
+    padding-left: 21px;
 }
 
 
 .panel-body img{
-    width: 200px;
+    position: relative;
+    width: 229px;
     float: left;
+    padding: 10px;
+    margin-top: -40px;
 }
 
 .panel-body p{
-    font-size: 20px;
-    line-height: 40px;
+    position: relative;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+.aside{
+    position: absolute;
+    width: 270px;
+    margin-left: 1000px;
+    background-color: white;
+    height: 200px;
+    margin-top: -22px;
+    padding-left: 10px;
+}
+
+.aside h2{
+    border-bottom: 1px solid rgb(199, 199, 199);
 }
 
 .panel-footer{
-    border-top: 3px solid rgb(110, 110, 255);
-    background: gray;
+    border-top: 5px solid rgb(89, 168, 242);
+    background: rgb(146, 146, 146);
     width: 100%;
     position: absolute;
     bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
 }
 
