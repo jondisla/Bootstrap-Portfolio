@@ -1,0 +1,99 @@
+body{
+    background: url(assets/images/mainbg.jpg);
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background: white;
+}
+
+.container-fluid{
+    position: relative;
+    width: 960px;
+    height: 89px;
+}
+
+.logo{
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.logo img{
+    width: 249px;
+    height: 95px;
+}
+
+.navwrap{
+    position: absolute;
+    right: 0;
+}
+
+li{
+    border-right: 1px solid rgb(190, 190, 190);
+    top: 20px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 5px;
+
+}
+
+li a{
+    color: grey;
+}
+
+ul li:nth-child(3){
+    border-right: 0px solid white;
+}
+
+/******************BODY**************************************/
+
+/* .mainBody{
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    margin-top: 43px;
+    background: white;
+    width: 650px;
+} */
+
+.contentWrapper{
+    position: relative;
+    margin-top: 39px;
+    width: 650px;
+    left: 310px;
+}
+
+.panel-body{
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.panel-body h1{
+    border-bottom: 2px solid rgb(204, 203, 203);
+}
+
+
+.panel-body img{
+    width: 200px;
+    float: left;
+}
+
+.panel-body p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.panel-footer{
+    border-top: 3px solid rgb(110, 110, 255);
+    background: gray;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
